@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" lang="pt-br">
+    <title>Login/Registro</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="menu">
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#">Lista de plantas</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Cadastrar plantas</a>
+          </div>
+      </div>
+   </div>
+
+    <div class="login">
+      Login</br>
+      <input onfocus="recebeIdfocus()" onblur="recebeIdblur()" id="id" class="inbar" type="text"  value="ID"></br>
+      <input onfocus="recebeSenhafocus()" onblur="recebeSenhablur()" id="senha" class="inbar" type="text" name="" value="Senha"></br>
+      <button onclick="loginBtn()" type="button" id="logBtn" >Login</button>
+    </div>
+
+    <div class="cadastro">
+      Cadastrar</br>
+      <input onfocus="this.value=''" type="text" value="Id"     class="inbar"></br>
+      <input onfocus="this.value=''" type="text" value="Nome"   class="inbar"></br>
+      <input onfocus="this.value=''" type="email" value="E-mail" class="inbar"></br>
+      <button onclick="cadastroBtn()" type="button" name="button" id="cadBtn">Cadastrar</button>
+    </div>
+
+
+  </body>
+</html>

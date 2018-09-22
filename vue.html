@@ -1,0 +1,18 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+
+ <p>{{ message }}</p>
+
+    <input type="text" v-model="novaTarefa">
+    <button v-on:click="adicionar">Adicionar</button>
+
+
+     <ul v-for="item in lista">
+       <p v-if="!item.feito">
+         <input type="checkbox">
+           {{item.texto}}
+       </p>
+     </ul>
+
+</div>
