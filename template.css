@@ -1,0 +1,125 @@
+body{
+  background-color:#DDDDDD;
+  margin: 0px;
+  padding: 0px;
+}
+#menu{
+  width: 100%;
+  background: #338833;
+  height: auto;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 1vw;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.login{
+  margin-left: 25vw;
+  margin-top: 15vh;
+  font-size: 2vh;
+  position: absolute;
+}
+
+ .inbar{
+   border: none;
+   color:#888888;
+   font-size: 2vh;
+   margin-top: 15px;
+}
+
+
+#logBtn{
+  font-size: 2vh;
+  border: none;
+  background-color: #66DD66;
+  margin-top: 2vh;
+  margin-left:1vw;
+  height: 3vh;
+  width: 5vw;
+}
+
+#cadBtn{
+  font-size: 2vh;
+  border: none;
+  background-color:#66dd66;
+  margin-top:2vh;
+
+}
+
+#cadastro{
+  margin-top: 12vh;
+  display:block;
+  float: right;
+  margin-right: 32vw;
+}
+
+#plantas{
+  height: auto;
+  margin:auto;
+  width: 60vw;
+  background-color: #FFFFFF;
+}
+
+#foto{
+  float: right;
+  margin:1vw;
+  border-radius: 50%;
+
+}
+
+#informacoes{
+  margin: 3vw;
+  font-size: 2vh;
+  float:inherit;
+}
+#informacoes p {
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+
+.img-fluid{ max-width: 100%;)}
+
+
+  h2{
+    text-align: center;
+    
+  }
