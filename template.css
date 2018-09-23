@@ -101,9 +101,9 @@ body{
 
 #foto{
   float: right;
-  margin:1vw;
+   margin:1vw;
   border-radius: 50%;
-
+    max-width: 100%;
 }
 
 #informacoes{

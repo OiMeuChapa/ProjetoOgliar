@@ -15,37 +15,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <header class="panel">
-    <div class="">
-      <h1 id="titulo">Projeto Ogliar</h1>
-    </div>
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: green;">
+  <a class="navbar-brand" href="#">Projeto Ogliar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div id="menu" class="row col-12">
-    
-        <div class="navbar-header container">
-      <div class="col-3">
-        <input type="text" placeholder="Digite uma Espécie: " id="pesquisa">
-      </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
 
-      <div id="servicos" class="col-9">
-        <ul id="barra">
-          <li class="col-3">
-            <a href="#">Apresentação</a>
-          </li>
-          <li class="col-2">
-            <a href="#">Comissão Cientifica</a>
-          </li>
-          <li class="col-2">
-            <a href="#">Inscrição</a>
-          </li>
-          <li class="col-2">
-            <a href="#">Informações</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Apresentação</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Comissão Cientifica</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inscrição</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Informações</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Digite uma espécie" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
   </div>
-    </header>
+</nav>
+      </header>
 
     <div id="info" class="col-4">
       <h3><b>Sobre o site:</b></h3>
